@@ -13,10 +13,7 @@ main(){
     printf("\nPlease Enter The Array : ");
 
     for(i = 0; i <= len-1; i++){
-        scanf("%d ", &arr[i]);
-    }
-    for(j = 0; j < len; j++){
-        printf("\n%d ", arr[j]);
+        scanf("%d", &arr[i]);
     }
     if(is_palindrome(arr, len)){
         printf("The Array is Palindrome");
